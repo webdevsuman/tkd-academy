@@ -196,6 +196,7 @@ li:hover::after {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-image: url(./assets/images/thao-lee-yYSY93clr4w-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -227,6 +228,7 @@ li:hover::after {
 #carouselExampleIndicators {
   width: 80%;
 }
+
 .testimonial-card .card-up {
   height: 120px;
   overflow: hidden;
@@ -239,6 +241,11 @@ li:hover::after {
   overflow: hidden;
   border: 3px solid #fff;
   border-radius: 50%;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item > div {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* Services section */
